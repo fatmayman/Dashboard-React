@@ -1,0 +1,75 @@
+.welcome {
+  background-color: white;
+  padding: 18px 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h5 {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  font-weight: 400;
+}
+
+.user-avatar1 {
+  color: white;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, #ff8800, #f9aa50);
+  border-radius: 50%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.username2 {
+  font-weight: 700;
+  color: #333;
+  font-size: 16px;
+}
+
+.wlc-btn {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.wlc-btn button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 12px;
+}
+
+.btn-diff {
+  background-color: #2F8ECC;
+}
+
+.btn-diff1 {
+  background-color: #7F8C8D;
+}
+
+.btn-diff:hover {
+  background-color: #469CD5;
+  transform: translateY(-2px);
+}
+
+.btn-diff1:hover {
+  background-color: #95A5A6;
+  transform: translateY(-2px);
+}

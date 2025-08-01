@@ -1,0 +1,95 @@
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.side {
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.side:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.side h3 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.announc-part h4 {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.announc-part p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.trend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.trend-item:last-child {
+  margin-bottom: 0;
+}
+
+.user-avatar-trend {
+  color: white;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-avatar3 {
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+
+.user-avatar4 {
+  background: linear-gradient(135deg, #ff8800, #f9aa50);
+}
+
+.user-avatar5 {
+  background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+
+.user-avatar6 {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+.trend-info {
+  flex: 1;
+}
+
+.trend-info .username {
+  font-weight: 600;
+  color: #333;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.trend-info p {
+  color: #666;
+  font-size: 11px;
+  margin: 0;
+}

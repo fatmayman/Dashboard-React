@@ -1,0 +1,60 @@
+.projects-section h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  color: #333;
+  font-weight: 700;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.project {
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 10px;
+  border-left: 4px solid #ff8800;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project h3 {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.project p {
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.icons i {
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s ease;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.icons i:hover {
+  color: #2F8ECC;
+  background-color: #f0f8ff;
+}
